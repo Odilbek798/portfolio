@@ -1,0 +1,93 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 140px;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+    h1{
+        font-size: 42px;
+    }
+    p{
+        font-size: 20px;
+    }
+    a{
+       text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.line{
+    max-width: 900px;
+    background-color: white;
+    height: 2px;
+    margin: 10px 0;
+}
+.tg{
+    img{
+        max-width: 100px;
+    }
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.mail{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tg{
+    display: flex;
+    gap: 10px;
+}
+
+/* .underline-center {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .underline-center::after {
+    content: "";
+    position: absolute;
+    bottom: 0;        
+    height: 2px;
+    background: currentColor;
+    transition: all 0.3s ease;
+  }
+  
+  .underline-center:hover::after {
+    left: 0;         
+    width: 100%;      
+  }
+  
+   */
+
+   .underline-center {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .underline-center::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+  
+    transform: translateX(-50%) scaleX(0); /* markazdan kichik */
+    transform-origin: center;              /* markazdan ochiladi */
+    transition: transform 0.3s ease;       /* faqat transform animatsiya bo‘ladi */
+  }
+  
+  .underline-center:hover::after {
+    transform: translateX(-50%) scaleX(1); /* to‘liq ochiladi */
+  }
+  

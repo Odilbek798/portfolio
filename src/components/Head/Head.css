@@ -1,0 +1,11 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px;
+    align-items: center;
+}
+.logo_head{
+    img{
+        max-width: 80px;
+    }
+}
