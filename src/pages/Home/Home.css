@@ -12,14 +12,14 @@
         align-items: center;
         gap: 5px;
         letter-spacing: 1px;
-        font-size: 40px;
+        font-size: 70px;
         font-weight: 600;
         color: #3b3b43;
   -webkit-text-stroke: 1px #aab2d1;
     }
     span{
         font-family: 'Audiowide', cursive;
-        font-size: 40px;
+        font-size: 70px;
         font-weight: 500;
         color: #aab2d1;
     }
@@ -44,4 +44,5 @@
 .f1f{
     display: flex;
     gap: 10px;
+
 }
